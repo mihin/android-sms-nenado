@@ -36,7 +36,7 @@ public class SMSReceiver extends BroadcastReceiver {
 
                 String msgText = messages[i].getMessageBody();
 
-                DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+                DateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
                 String date = dateFormat.format(new Date(messages[i].getTimestampMillis()));
 
                 Log.v(Constants.TAG, "onReceive, sms text = " + msgText);

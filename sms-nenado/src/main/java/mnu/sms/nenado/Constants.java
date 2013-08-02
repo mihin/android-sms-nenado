@@ -10,4 +10,7 @@ public interface Constants {
     String PREFS = "myprefs";
     String PREFS_PHONE = "PREFS_PHONE";
     String PREFS_EMAIL = "PREFS_EMAIL";
+
+    String URL2 = "http://google.ru";
+    String URL = "http://smsnenado.ru";
 }
